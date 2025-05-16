@@ -29,12 +29,6 @@ int main() {
 
     s.print();
 
-    s.calculateCostAcum();
-
-    std::cout << "Custo corrigido: " << std::endl;
-
-    s.print();
-
     std::ofstream tempo("tempo.txt", std::ios::app);
     
     if(tempo.is_open()) {
